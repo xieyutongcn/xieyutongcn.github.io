@@ -1,14 +1,28 @@
 layout: sidebar
 style: light
+theme: jekyll-theme-cayman
+
 # Name of website
 title: Eight Portions
 
 # Short description of your site
 description: "Yutong's personal website"
 
+# List of links in the navigation bar
+navbar-links:
+  Home: ""
+  Datasets: "datasets"
+  Resources: "favorite-resources"
+  About: "about"
 
-name: Yutong Xie
-theme: jekyll-theme-cayman
+# Image to show in the navigation bar - image must be a square (width = height)
+# Remove this parameter if you don't want an image in the navbar
+# avatar: "/img/Mt_Fuji.jpg"
+
+# --- Jekyll SEO Tag info --- #
+# logo: "/img/Mt_Fuji1.jpg"
+# twitter:
+#   username: eightportions
 
 plugins:
   - jekyll-octicons
