@@ -5,8 +5,4 @@ title: Yutong Xie
 id: Home
 ---
 
-<div class="cont">
-
-</div>
-
 # Yutong Xie
