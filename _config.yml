@@ -1,9 +1,9 @@
 layout: sidebar
 style: light
-theme: jekyll-theme-cayman
+# theme: jekyll-theme-cayman
 
 # Name of website
-title: Eight Portions
+title: Yutong Xie
 
 # Short description of your site
 description: "Yutong's personal website"
@@ -30,3 +30,4 @@ plugins:
   - jemoji
 
 permalink: /:year/:month/:day/:title/
+
