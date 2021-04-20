@@ -2,10 +2,11 @@
 layout: default
 title: About
 ---
-# About page
-
-<!-- I learn to create all the pages from https://jekyllrb.com/docs/step-by-step/05-includes/ -->
 
 This page tells you a little bit about me. 
 
-My name is Yutong Xie. I am currently an Assistant Professor of Finance at TCNJ. 
+My name is Yutong Xie. I am currently an Assistant Professor of Finance at TCNJ. Here is a picture of a rhinoceros in the Miami Zoo, US. 
+
+<img src="{{site.baseurl}}/assets/images/rhino.jpeg">
+
+<!-- I learn to create all the pages from https://jekyllrb.com/docs/step-by-step/05-includes/ -->
