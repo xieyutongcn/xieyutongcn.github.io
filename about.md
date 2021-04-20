@@ -11,7 +11,7 @@ Don't know what else to say. Here is a picture of a rhinoceros in the Miami Zoo,
 
 <picture align = "center">
     <br><br>
-    <img src="/assets/images/rhino.jpeg" width = 200>
+    <img src="/assets/images/rhino.jpeg" width = "500">
 </picture>
 
 <!-- I learn to create all the pages from https://jekyllrb.com/docs/step-by-step/05-includes/ -->
