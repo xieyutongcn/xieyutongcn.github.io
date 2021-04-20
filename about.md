@@ -15,3 +15,4 @@ Don't know what else to say. Here is a picture of a rhinoceros in the Miami Zoo,
 </picture>
 
 <!-- I learn to create all the pages from https://jekyllrb.com/docs/step-by-step/05-includes/ -->
+<!-- and here https://learn.cloudcannon.com/jekyll/simple-navigation/ -->
