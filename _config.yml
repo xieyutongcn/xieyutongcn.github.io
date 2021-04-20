@@ -4,26 +4,30 @@ title: Yutong Xie
 # Short description of your site
 description: "Yutong's personal website"
 
-# List of links in the navigation bar
-navbar-links:
-  Home: ""
-  Datasets: "datasets"
-  Resources: "favorite-resources"
-  About: "about"
+# Collections of blog posts
+collections:
+  authors:
+    output: true
 
-# Image to show in the navigation bar - image must be a square (width = height)
-# Remove this parameter if you don't want an image in the navbar
-# avatar: "/img/Mt_Fuji.jpg"
-
-# --- Jekyll SEO Tag info --- #
-# logo: "/img/Mt_Fuji1.jpg"
-# twitter:
-#   username: eightportions
-
-plugins:
-  - jekyll-octicons
-  - jekyll-github-metadata
-  - jemoji
-
-permalink: /:year/:month/:day/:title/
-
+# Now you need to configure the author documents to use the author layout. 
+# You could do this in the front matter like we have previously but that’s 
+# getting repetitive. What you really want is all posts to automatically have
+# the post layout, authors to have author and everything else to use the default. 
+# You can achieve this by using front matter defaults in _config.yml. You set a 
+# scope of what the default applies to, then the default front matter you’d like.
+# Add defaults for layouts to your _config.yml,
+defaults:
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
