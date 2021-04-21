@@ -3,9 +3,6 @@
 
 <head>
     <link rel="stylesheet" href="/main.css">
-    <!-- <link rel="stylesheet" href="css/1.css" media="all" type="text/css"> -->
-    <!-- <link rel="stylesheet" href="css/mob.css" media="only screen and (max-device-width: 600px)" type="text/css"> -->
-    <!-- <link rel="stylesheet" href="css/nav.css"> -->
     <meta charset="UTF-8">
     <meta name="description" content="{{page.description}}" />
     <meta http-equiv="date" content="{{page.date |date: '%A, %d  %Y %H:%M:%S GMT'}}" />
@@ -13,6 +10,36 @@
     <title>{{ page.title }}</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+        
+        li {
+        float: left;
+        }
+        
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+        
+        .active {
+            background-color: #4CAF50;
+        }
+    </style>
 </head>
 
 <!-- <div class="ban"> 
