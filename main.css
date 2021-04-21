@@ -1,5 +1,5 @@
 .current {
-    color: green;
+    color: maroon;
 }
 
 .center_content {
@@ -27,13 +27,13 @@
 
 /* Change the color of links on hover */
 .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: white;
+    color: maroon;
 }
 
   /* Add a color to the active/current link */
 .topnav a.active {
-    background-color: #4CAF50;
+    background-color: maroon;
     color: white;
 }
 
