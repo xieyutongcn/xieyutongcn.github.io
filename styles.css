@@ -57,9 +57,9 @@ img {
   height: auto;
 }
 
-/* Add a maroon background color to the top navigation */
+/* Add a #861F41 background color to the top navigation */
 .topnav {
-  background-color: maroon;
+  background-color: #861F41;
   text-align: right;
   overflow: hidden;
 }
@@ -77,13 +77,13 @@ img {
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: white;
-  color: maroon;
+  color: #861F41;
 }
 
 /* Add a color to the active/current link */
 /* Not working */
 .topnav a.active {
-  background-color: maroon;
+  background-color: #861F41;
   color: white;
 }
 
