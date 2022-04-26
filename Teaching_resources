@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<body>
+    <div class="content">
+        <h1>Teaching Resources</h1>
+        <h2>Quantatitive Methods</h2>
+        <ul>
+            <li><a href="https://www.thestatisticalmind.com/demos/">The Statistical Mind</a></li>
+        </ul>
+    </div>
+</body>
