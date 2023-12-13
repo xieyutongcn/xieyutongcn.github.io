@@ -95,7 +95,7 @@ img {
 /* The dropdown container */
 .dropdown {
   float: left;
-  /*overflow: hidden;*/
+  overflow: hidden;
 }
 
 /* Dropdown button */
