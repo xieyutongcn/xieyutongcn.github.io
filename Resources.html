@@ -1,65 +1,93 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
 
-<body>
-    <div class="content">
-        <h1>Useful Resources</h1>
-        <h2>Conferences and Meetings</h2>
-        <ul>
-            <li>AFA </a>maintains a <a href = "https://afajof.org/call-for-papers-calendar/">call for papers calendar</a>. You can subscribe to the calendar. </li>
-        </ul>
-        <h2>Coding & Programing</h2>
-        <ul>
-            <li>Automated trading platform with TDAmeritrade and Python</li>
-            <li><a href = "https://github.com/AI4Finance-LLC/FinRL">FinRL</a> - Finance reinforcement learning by AI4Finance</li>
-            <li>Create a website like this one</li>
-            <ul>
-                <li><a href = "https://github.com/xieyutongcn/xieyutongcn.github.io">This is the link to the github page of this website.</a> The code is mostly html based. A simple template is created using Jekyll. The website is hosted on github. </li>
-                <li>If you are comfortable with R, here is a website by <a href = "https://www.faculty.agecon.vt.edu/resources.html">Prof. Klaus Moeltner</a>, which is created using R and distill markdown. It is also hosted on github.  </li>
-            </ul>
-        </ul>
-        <h2>Data</h2>
-        <ul>
-            <li>Chinese high speed train network</li>
-            <ul>
-                <li>I hand collected this data from wikipedia.org and baike.baidu.com</li>
-            </ul>
-            <li><a href = "patentsview.org">Patentsview.org</a> for US and world innovation</li>
-            <ul>
-                <li>PatentsView is a patent data visualization and analysis platform intended to increase the value, utility, and transparency of U.S. patent data. The initiative is supported by the Office of the Chief Economist in the United States Patent and Trademark Office (USPTO). The PatentsView platform is built on a regularly updated database that longitudinally links patenting activity.</li>
-            </ul>
-            <li><a href = "https://www.mikewoeppel.com/data">Prof. Mike Woeppel's website</a> for</li>
-            <ul>
-                <li>Patent-CRSP permco match</li>
-                <li>United States Patent and Trademark Office Data</li>
-                <li>Patent Examination Research Dataset via USPTO website</li>
-            </ul>
-            <li> <a href = "https://host.kelley.iu.edu/nstoffma/"> Noah Hoffman's personal website </a> for patent value and forward citation based patent counts. </li>
-            <li> <a href = "https://www.mikewoeppel.com/data"> Michael Woeppel's personal website </a> for cleaned USPTO patent data. </li>
-            <li> <a href = "https://dataverse.harvard.edu/">Harvard Dataverse</a> </li>
-            <ul>
-                <li> <a href = "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/CF1IXO"> SIPO Data Merged with Chinese Public Firms</a> </li>
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">      
+        <title>Yutong Xie's Website</title>
+    </head>
+
+    <body id="{{ page.id }}">
+
+        <!--Navigation bar-->
+        <div id="nav-placeholder">
+
+        </div>
+
+        <script>
+        $(function(){
+            $("#nav-placeholder").load("/_includes/navbar.html");
+        });
+        </script>
+        <!--end of Navigation bar-->
+
+        <body>
+            <div class="content">
+                <h1>Useful Resources</h1>
+                <h2>Conferences and Meetings</h2>
                 <ul>
-                    <li>An alternative location: <a href = "https://sites.google.com/site/sipopdb/cpdp-home/sipo-chinese-listed-firms"> SIPO Data Merged with Chinese Public Firms. </a> </li>
+                    <li>AFA </a>maintains a <a href = "https://afajof.org/call-for-papers-calendar/">call for papers calendar</a>. You can subscribe to the calendar. </li>
                 </ul>
-            </ul>
-        </ul>
-        <h2>Website</h2>
-        <ul>
-            <li><a href = "https://sites.google.com/site/econometricsacademy/home/about-the-instructor?authuser=0">Econometrics Academy</a> <br> 
+                <h2>Coding & Programing</h2>
                 <ul>
-                    <li>Econometrics Academy is founded by Ani Katchova, Professor and Farm Income Enhancement Chair in the Department of Agricultural, Environmental, and Development Economics at The Ohio State University.</li>
+                    <li>Automated trading platform with TDAmeritrade and Python</li>
+                    <li><a href = "https://github.com/AI4Finance-LLC/FinRL">FinRL</a> - Finance reinforcement learning by AI4Finance</li>
+                    <li>Create a website like this one</li>
+                    <ul>
+                        <li><a href = "https://github.com/xieyutongcn/xieyutongcn.github.io">This is the link to the github page of this website.</a> The code is mostly html based. A simple template is created using Jekyll. The website is hosted on github. </li>
+                        <li>If you are comfortable with R, here is a website by <a href = "https://www.faculty.agecon.vt.edu/resources.html">Prof. Klaus Moeltner</a>, which is created using R and distill markdown. It is also hosted on github.  </li>
+                    </ul>
                 </ul>
-            </li>
-            <li><a href = "http://www.gregthatcher.com/?AspxAutoDetectCookieSupport=1">Greg Thatcher</a> <br> 
+                <h2>Data</h2>
                 <ul>
-                    <li>This website is built by Greg Thatcher. It has a finance application that conduct seasonality analysis on stocks.</li>
+                    <li>Chinese high speed train network</li>
+                    <ul>
+                        <li>I hand collected this data from wikipedia.org and baike.baidu.com</li>
+                    </ul>
+                    <li><a href = "patentsview.org">Patentsview.org</a> for US and world innovation</li>
+                    <ul>
+                        <li>PatentsView is a patent data visualization and analysis platform intended to increase the value, utility, and transparency of U.S. patent data. The initiative is supported by the Office of the Chief Economist in the United States Patent and Trademark Office (USPTO). The PatentsView platform is built on a regularly updated database that longitudinally links patenting activity.</li>
+                    </ul>
+                    <li><a href = "https://www.mikewoeppel.com/data">Prof. Mike Woeppel's website</a> for</li>
+                    <ul>
+                        <li>Patent-CRSP permco match</li>
+                        <li>United States Patent and Trademark Office Data</li>
+                        <li>Patent Examination Research Dataset via USPTO website</li>
+                    </ul>
+                    <li> <a href = "https://host.kelley.iu.edu/nstoffma/"> Noah Hoffman's personal website </a> for patent value and forward citation based patent counts. </li>
+                    <li> <a href = "https://www.mikewoeppel.com/data"> Michael Woeppel's personal website </a> for cleaned USPTO patent data. </li>
+                    <li> <a href = "https://dataverse.harvard.edu/">Harvard Dataverse</a> </li>
+                    <ul>
+                        <li> <a href = "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/CF1IXO"> SIPO Data Merged with Chinese Public Firms</a> </li>
+                        <ul>
+                            <li>An alternative location: <a href = "https://sites.google.com/site/sipopdb/cpdp-home/sipo-chinese-listed-firms"> SIPO Data Merged with Chinese Public Firms. </a> </li>
+                        </ul>
+                    </ul>
                 </ul>
-            </li>
-            <li>
-                <a href = "patentsview.org">Patentsview.org</a> for US and world innovation
-            </li>
-        </ul>
-    </div>
-</body>
+                <h2>Website</h2>
+                <ul>
+                    <li><a href = "https://sites.google.com/site/econometricsacademy/home/about-the-instructor?authuser=0">Econometrics Academy</a> <br> 
+                        <ul>
+                            <li>Econometrics Academy is founded by Ani Katchova, Professor and Farm Income Enhancement Chair in the Department of Agricultural, Environmental, and Development Economics at The Ohio State University.</li>
+                        </ul>
+                    </li>
+                    <li><a href = "http://www.gregthatcher.com/?AspxAutoDetectCookieSupport=1">Greg Thatcher</a> <br> 
+                        <ul>
+                            <li>This website is built by Greg Thatcher. It has a finance application that conduct seasonality analysis on stocks.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href = "patentsview.org">Patentsview.org</a> for US and world innovation
+                    </li>
+                </ul>
+            </div>
+        </body>
+    </body>
+</html>

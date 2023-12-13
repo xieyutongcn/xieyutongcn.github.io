@@ -1,40 +1,69 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
 
-<body>
-    <div class="content">
-        <h1>Publications</h1>
-        <ul>
-            <li> Easterwood, John C., Paye, Bradley S. and Xie, Yutong, (2021), <a href="https://www.sciencedirect.com/science/article/abs/pii/S0929119921001541">Firm uncertainty and corporate policies: The role of stock return skewness</a>, <i>Journal of Corporate Finance</i>, <b>69</b>, issue C, number S0929119921001541. </li>
-            <li> Kim, Tae-Nyun and Xie, Yutong, (2023), <a href="https://www.sciencedirect.com/science/article/abs/pii/S1544612322005256">Off-balance sheet disclosure and leverage adjustment speed</a>, <i>Finance Research Letters</i>, <b>51</b>, 103346, 1544-6123. </li>
-        </ul>
-        <h1>Working Papers</h1>
-        <ul>
-            <li><strong>Do U.S. Firms Payout Too Much To Their Long-term Detriment?</strong></li>
-            <ul>
-                <li>with John Easterwood, Raman Kumar and Shahram Amini</li>
-            </ul>
-            <li><strong>Does it Pay to Hire a Friend?</strong></li>
-            <ul>
-                <li>with Jin Xu and Ruiyao Zhu</li>
-                <li>FMA Annual Meeting 2021 (Denver, CO)</li>
-            </ul>
-            <li><strong>Academic Directors</strong></li>
-            <ul>
-                <li>with Jin Xu and Ruiyao Zhu</li>
-                <li>NFA Conference 2021 (Virtual)</li>
-                <li>European Financial Management Association Conference 2022 (Virtual)</li>
-            </ul>
-        </ul>
-        <h1>Works-in-Progress</h1>
-        <ul>
-            <li><strong>Does it Pay to Invite a Good University? Evidence from China</strong></li>
-            <li><strong>Who Hires Bad CEOs? Evidence from Long-term and Short-term Stock Market Reactions</strong></li>
-            <ul>
-                <li>with Jin Xu and Ruiyao Zhu</li>
-            </ul>
-            <li><strong>Stay on the Edge of Innovation: Finding Key Innovation Path in Patent Citation Network</strong></li>
-        </ul>
-    </div>
-</body>
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">      
+        <title>Yutong Xie's Website</title>
+    </head>
+
+    <body id="{{ page.id }}">
+
+        <!--Navigation bar-->
+        <div id="nav-placeholder">
+
+        </div>
+
+        <script>
+        $(function(){
+            $("#nav-placeholder").load("/_includes/navbar.html");
+        });
+        </script>
+        <!--end of Navigation bar-->
+
+        <body>
+            <div class="content">
+                <h1>Publications</h1>
+                <ul>
+                    <li> Easterwood, John C., Paye, Bradley S. and Xie, Yutong, (2021), <a href="https://www.sciencedirect.com/science/article/abs/pii/S0929119921001541">Firm uncertainty and corporate policies: The role of stock return skewness</a>, <i>Journal of Corporate Finance</i>, <b>69</b>, issue C, number S0929119921001541. </li>
+                    <li> Kim, Tae-Nyun and Xie, Yutong, (2023), <a href="https://www.sciencedirect.com/science/article/abs/pii/S1544612322005256">Off-balance sheet disclosure and leverage adjustment speed</a>, <i>Finance Research Letters</i>, <b>51</b>, 103346, 1544-6123. </li>
+                </ul>
+                <h1>Working Papers</h1>
+                <ul>
+                    <li><strong>Do U.S. Firms Payout Too Much To Their Long-term Detriment?</strong></li>
+                    <ul>
+                        <li>with John Easterwood, Raman Kumar and Shahram Amini</li>
+                    </ul>
+                    <li><strong>Does it Pay to Hire a Friend?</strong></li>
+                    <ul>
+                        <li>with Jin Xu and Ruiyao Zhu</li>
+                        <li>FMA Annual Meeting 2021 (Denver, CO)</li>
+                    </ul>
+                    <li><strong>Academic Directors</strong></li>
+                    <ul>
+                        <li>with Jin Xu and Ruiyao Zhu</li>
+                        <li>NFA Conference 2021 (Virtual)</li>
+                        <li>European Financial Management Association Conference 2022 (Virtual)</li>
+                    </ul>
+                </ul>
+                <h1>Works-in-Progress</h1>
+                <ul>
+                    <li><strong>Does it Pay to Invite a Good University? Evidence from China</strong></li>
+                    <li><strong>Who Hires Bad CEOs? Evidence from Long-term and Short-term Stock Market Reactions</strong></li>
+                    <ul>
+                        <li>with Jin Xu and Ruiyao Zhu</li>
+                    </ul>
+                    <li><strong>Stay on the Edge of Innovation: Finding Key Innovation Path in Patent Citation Network</strong></li>
+                </ul>
+            </div>
+        </body>
+
+    </body>
+</html>

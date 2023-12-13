@@ -1,21 +1,48 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
 
-<body>
-    <div class="content">
-        <h1>Yutong Xie</h1>
-        <p>
-            <p>Assistant Professor</p>
-            <p>Department of Finance</p>
-            <p>The College of New Jersey</p>
-            <p><a href = "mailto: xiey@tcnj.edu">Email: xiey@tcnj.edu</a></p>
-        </p>
-        <figure>
-            <br>
-            <br>
-            <img src="/images/rhino.jpeg" class="center"/>
-            <figcaption><i>Rihno in Miami Zoo, US. Picture taken by Yongcheng Xie.</i></figcaption>
-        </figure>
-    </div>
-</body>
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">      
+        <title>Yutong Xie's Website</title>
+    </head>
+
+    <body id="{{ page.id }}">
+
+        <!--Navigation bar-->
+        <div id="nav-placeholder">
+
+        </div>
+
+        <script>
+        $(function(){
+            $("#nav-placeholder").load("/_includes/navbar.html");
+        });
+        </script>
+        <!--end of Navigation bar-->
+
+        <div class="content">
+            <h1>Yutong Xie</h1>
+            <p>
+                <p>Assistant Professor</p>
+                <p>Department of Finance</p>
+                <p>The College of New Jersey</p>
+                <p><a href = "mailto: xiey@tcnj.edu">Email: xiey@tcnj.edu</a></p>
+            </p>
+            <figure>
+                <br>
+                <br>
+                <img src="/rhino.jpeg" class="center"/>
+                <figcaption><i>Rihno in Miami Zoo, US. Picture taken by Yongcheng Xie.</i></figcaption>
+            </figure>
+        </div>
+
+    </body>
+</html>
