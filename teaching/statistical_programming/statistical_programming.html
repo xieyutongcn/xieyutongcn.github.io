@@ -1,41 +1,40 @@
 <!DOCTYPE html>
+<html lang="en">
+
 <html>
-	<head>
-		<link rel="stylesheet" href="/styles.css" media="screen" type="text/css"/>
-		<title> Statistical Programming </title>
-	</head>
-	<body>
-		<!-- Header Navigation Bar -->
-		<header>
-			<div class="topnav">
-				<div class="topnav-right">
-					<a href="\index.html">Home</a>
-					<a href="CV.pdf">CV</a>
-					<a href="Research.html">Research</a>
-					<!--<a href="Teaching.html">Teaching</a>-->
-					<div class="dropdown">
-						<button class="dropbtn">Teaching
-							<i class="fa fa-caret-down"></i>
-						</button>
-						<div class="dropdown-content">
-							<a href="\Teaching.html">Finance</a>
-							<a href="\Statistical_Programming\Statistical_programming.html">Statistical Programming</a>
-							<!--<a href="#">Link 3</a>-->
-						</div>
-					</div>
-					<a href="Resources.html">Resources</a>
-					<a href="about.html">About</a>
-				</div>
-			</div>
-		</header>
-		<!--<div w3-include-html="\_includes\navbar.html"></div> -->
+    <head>
+        <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="/styles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">      
+        <title>Yutong Xie's Website</title>
+    </head>
+
+    <body id="{{ page.id }}">
+		
+		<!--Navigation bar-->
+        <div id="nav-placeholder">
+
+        </div>
+
+        <script>
+        $(function(){
+            $("#nav-placeholder").load("/_includes/navbar.html");
+        });
+        </script>
+        <!--end of Navigation bar-->
+
 		<main>
 			<div class="content">
 				<h1>Statistical Programming</h1>
 				<h2>SAS</h2>
 				<ul>
-					<li><a href = "\Statistical_Programming\01\Introduction and Reading Data.html">Introduction and Reading Data</a></li>
-					<li><a href = "corporate_finance_fin_330.html">Corporate Finance (FIN 330)</a></li>
+					<li><a href = "/teaching/statistical_programming/01/Introduction and Reading Data.html">Introduction and Reading Data</a></li>
+					<li><a href = "/teaching/statistical_programming/02/Introduction and Reading Data.html">Corporate Finance (FIN 330)</a></li>
 					<ul>
 						<li>Spring 2021, Spring 2022, Fall 2022, Spring 2023</li>
 					</ul>
